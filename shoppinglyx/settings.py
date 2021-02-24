@@ -130,13 +130,13 @@ STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 
 STATICFILES_DIRS = [
-    BASE_DIR / 'media'
+    BASE_DIR / 'media/producting'
 ]
 
 MEDIA_ROOT = BASE_DIR / 'media'
 # STATIC_ROOT = BASE_DIR / 'static'
 
-STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATIC_ROOT = BASE_DIR / 'media'
 
 LOGIN_REDIRECT_URL = '/profile/'
 
