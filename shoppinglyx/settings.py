@@ -130,7 +130,7 @@ STATIC_URL = '/static/'
 MEDIA_URL = '/producting/'
 
 STATICFILES_DIRS = [
-    BASE_DIR / 'static/producting'
+    BASE_DIR / 'media/producting'
 ]
 
 MEDIA_ROOT = BASE_DIR / 'media'
