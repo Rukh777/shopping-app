@@ -129,13 +129,12 @@ MEDIA_ROOT = BASE_DIR / 'media'
 
 
 # STATICFILES_DIRS = [
-#     BASE_DIR / 'app/static'
-# ]
-
-
-# STATICFILES_DIRS = [
 #     BASE_DIR / 'media/producting'
 # ]
+
+# STATIC_ROOT = BASE_DIR / 'static'
+
+
 
 LOGIN_REDIRECT_URL = '/profile/'
 
@@ -143,4 +142,3 @@ LOGIN_REDIRECT_URL = '/profile/'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 SESSION_ENGINE = 'django.contrib.sessions.backends.db'
 
-# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
