@@ -133,6 +133,10 @@ STATICFILES_DIRS = [
 ]
 
 
+STATICFILES_DIRS = [
+    BASE_DIR / 'media/producting'
+]
+
 LOGIN_REDIRECT_URL = '/profile/'
 
 
